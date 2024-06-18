@@ -12,7 +12,7 @@ def crawl_tweets(usernames):
         # 트위터 로그인
         page.goto('https://x.com/i/flow/login')
         page.fill('input[name="text"]', os.getenv('TWITTER_USERNAME'))
-        page.click('div[data-testid="ocfEnterTextNextButton"]')
+        page.click('div[data-testid="LoginForm_Login_Button"]')
         page.wait_for_timeout(2000)  # 2초 대기
         page.fill('input[name="password"]', os.getenv('TWITTER_PASSWORD'))
         page.click('div[data-testid="LoginForm_Login_Button"]')

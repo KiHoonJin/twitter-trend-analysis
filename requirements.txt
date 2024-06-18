@@ -1,6 +1,2 @@
 streamlit
-selenium
-bs4
-nltk
-rake-nltk
 playwright
