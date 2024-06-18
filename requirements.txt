@@ -1,5 +1,5 @@
 streamlit
 selenium
-beautifulsoup4
-rake-nltk
+bs4
 nltk
+rake-nltk
